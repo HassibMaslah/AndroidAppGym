@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context=".Epaul">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_epaul"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hassi.myapplication.Epaul">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"></android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:id="@+id/SliderDots"
+        android:layout_below="@+id/viewPager"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <TextView
+        android:text="Le Développé Nuque"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/SliderDots"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView"
+        android:layout_height="40dp"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <TextView
+        android:text="1-Commencez par placer un banc à 90° pour supporter votre dos.\n
+2-Placez-vous sous la barre chargée avec le poids désiré et placez là sur l’arrière de vos épaules, juste sous votre nuque.\n
+3-Expirez et levez la barre au-dessus de votre tête en tendant vos bras.\n
+4-Gardez cette position pendant 1-2 secondes, inspirez et redescendez la barre vers la position de départ."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView"
+        android:textSize="18sp" />
+</RelativeLayout>
+</ScrollView>

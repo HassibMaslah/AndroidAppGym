@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context=".Dos">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hassi.myapplication.Dos">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerDos"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"></android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:id="@+id/SliderDotsDos"
+        android:layout_below="@+id/viewPagerDos"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <TextView
+        android:text="1- Asseyez-vous sur l’appareil de façon à ce que la barre soit directement au-dessus de votre tête et devant votre corps. Les pieds bien à plat au sol, réglez la machine de façon à ce que les supports soient calés sur vos cuisses.
+\n 2- Saisissez les parties courbes aux extrémités de la barre, paumes des mains vers l’avant. Votre dos devra être droit, vos bras seront complètement tendus et vos épaules relevées pour former un grand « Y ».
+\n 3- Si vous devez vous lever pour prendre la barre, pensez à la saisir avant de vous asseoir et de commencer.
+\n 4- Gardez le buste droit et vertical en contractant les muscles lombaires.
+\n 5- Pour démarrer le mouvement, inspirez légèrement plus que la normale et tirez vers le bas avec vos bras tout en expirant, le mouvement partant des coudes.
+\n 6- Tirez la barre directement vers le bas devant votre tête et jusqu’à la hauteur des épaules.
+\n 7- Lors de la descente, gardez les coudes en arrière, pointés vers l’extérieur et dans le même plan que votre buste.
+\n 8- Maintenez la position basse pendant 1 à 2 secondes, puis revenez à la position de départ en inspirant et en contrôlant la barre.
+\n 9- Marquez une pause brève pour bien ressentir l’étirement en haut et recommencez.
+\n 10- Assurez-vous que vos bras sont complètement tendus avant et commencez la répétition suivante."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Tirage Vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/textView"
+        android:layout_height="40dp"
+        android:layout_below="@+id/SliderDotsDos"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+</ScrollView>

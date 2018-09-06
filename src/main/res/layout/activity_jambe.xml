@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context=".Epaul">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_jambe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hassi.myapplication.Jambe">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerJb"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"></android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:id="@+id/SliderDotsJb"
+        android:layout_below="@+id/viewPagerJb"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <TextView
+        android:text="Presse à Cuisses"
+        android:layout_width="match_parent"
+        android:id="@+id/textView"
+        android:layout_height="40dp"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_below="@+id/SliderDotsJb"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="1- Asseyez-vous sur le siège de la machine en plaçant vos pieds sur la plate-forme et en les espaçant d’une largeur environ égale à celle de vos épaules. Vous devriez sentir que la pression est répartie sur toute la surface de la plante des pieds.
+\n 2- Les hanches et le dos contre le dossier, déverrouillez la plate-forme grâce aux poignées situées près du siège. Ensuite, tendez complètement les jambes, mais sans les verrouiller. C’est la position de départ.
+\n 3- Inspirez en fléchissant les genoux pour descendre la plate-forme (la vitesse sera lente à modérée) jusqu’à ce que vous atteigniez un angle de 80 à 90° au niveau de vos genoux (angle mesuré entre l’arrière des mollets et l’arrière des cuisses).
+\n 4- Poussez la charge (plate-forme) avec les talons vers la position de départ en expirant.
+\n 5- Inspirez et recommencez le mouvement pour faire le nombre de reps désiré."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView6"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+</ScrollView>

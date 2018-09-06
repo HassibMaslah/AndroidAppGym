@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context=".Biceps">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_biceps"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hassi.myapplication.Biceps">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerBi"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"></android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:id="@+id/SliderDotsBi"
+        android:layout_below="@+id/viewPagerBi"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <TextView
+        android:text="Curl Barre en Supination"
+        android:layout_width="match_parent"
+        android:id="@+id/textView"
+        android:layout_height="40dp"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_below="@+id/SliderDotsBi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="1- Debout, les pieds parallèles écartés à la largeur des épaules et légèrement tournés vers l’extérieur. Tenez une barre à bout de bras devant les cuisses, les mains en supination (paume vers le haut) écartées à peu près à la largeur des épaules.
+\n 2- Inspirez profondément, bloquez votre respiration et montez la barre en fléchissant les coudes.
+\n 3- Lors de la montée de la charge, gardez les coudes fixes et serrées contre le corps. Assurez-vous que vos mains restent dans l’alignement des avant-bras.
+\n 4- Fléchissez les avant-bras à une cadence modérée. Expirez vers la fin de la flexion. Faites une pause brève en haut du mouvement (quand les mains sont à la hauteur de la partie supérieure des pectoraux).
+\n 5- Descendez la barre en la contrôlant pour revenir à la position de départ, mais n’allez pas jusqu’à l’extension complète des bras. Effectuez toutes les répétitions.
+\n 6- Gardez le buste vertical pendant toute la durée de l’exercice."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView6"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+</ScrollView>

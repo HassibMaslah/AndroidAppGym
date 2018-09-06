@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context=".Epaul">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_abdo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hassi.myapplication.Abdo">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerAb"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"></android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:id="@+id/SliderDotsAb"
+        android:layout_below="@+id/viewPagerAb"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <TextView
+        android:text="Crunch Décliné au Banc"
+        android:layout_width="match_parent"
+        android:id="@+id/textView"
+        android:layout_height="40dp"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_below="@+id/SliderDotsAb"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="1- Régler le banc pour que la déclivité soit d’environ 30 à 40°. Crochetez vos pieds sous les supports.
+\n 2- Allongez-vous sur le dos, les épaules et la tête bien au contact du banc, les mains croisées sur la poitrine ou sur les tempes.
+\n 3- Inspirez et bloquez votre respiration tandis que vous contractez vos abdos pour décoller le buste du banc.
+\n 4- À la force des abdos, remontez le haut du corps jusqu’à ce qu’il fasse un angle d’environ 90° avec les hanches. Maintenez cette position un instant tout en expirant, puis redescendez le buste à mi-hauteur seulement.
+\n 5- Veillez à maintenir la tension dans les abdominaux pendant tout l’exercice. Ne redescendez pas au point que les épaules ou la tête touchent le banc entre les reps.
+\n 6- Dans la position de départ, votre regard sera dirigé vers le plafond; dans la position d’arrivée, à la fin de la montée, vous regardez devant vous par-dessus vos bras."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView6"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+</ScrollView>
